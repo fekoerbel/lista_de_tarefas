@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Lista de Tarefas</h1>
+    </header>
+    <section>
+        <div>
+            <form name="formulario" onsubmit="return false">
+
+                <input type="text" name="tarefas" id="tarefas" placeholder="Tarefas a fazer..." />
+                <button type="button" id="botaoAdd" onclick="add()">Adicionar Tarefa</button>
+            </form>
+
+            <fieldset id="fazerfield">
+                <legend>TAREFAS A FAZER:</legend>
+                <ul id="fazer">
+                </ul>
+            </fieldset>
+            <button type="button" id="botaoAdd" onclick="desfazer()">Desfazer Exclusão</button>
+        </div>
+
+        <div id="finalizadas">
+            <fieldset id="fimfield">
+                <legend>TAREFAS FINALIZADAS:</legend>
+                <ul id="finalizada">
+                </ul>
+            </fieldset>
+        </div>
+
+    </section>
+    <footer>
+        <p>Criado por: Felipe Koerbel dos Anjos</p>
+    </footer>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>

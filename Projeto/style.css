@@ -1,0 +1,104 @@
+header {
+    padding: 30px 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  h1 {
+    font-family: fantasy-luminari;
+    letter-spacing: 2px;
+    font-size: 30pt;
+    margin-bottom: 15px;;
+  }
+body {
+    background: linear-gradient(90deg, rgb(14, 14, 14) 0%,
+                                       rgb(167, 164, 100) 50%, 
+                                       rgb(161, 159, 156) 100%);
+}
+section {
+    height: auto;
+    min-height: 550px;
+    width: 800px;
+    background: rgb(187, 187, 185);
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+}
+button#botaoAdd {
+    
+        width: 25%;
+        padding: 10px;
+        margin-left:0;
+        background: #d9d9d9;
+        color: #555;
+        text-align: center;
+        font-size: 14px;
+        cursor: pointer;
+        transition: 0.3s;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      button#botaoAdd:hover{
+          background-color: #bbb;
+          color: #FFF;
+      }
+button#del {
+    font: 10pt arial;
+    color:white;
+    text-decoration: underline;
+    background: rgba(255, 0, 0, 0.665);
+    cursor: pointer;
+}       
+
+button#fin {
+    font: 10pt arial;
+    color: white;
+    background: rgba(0, 128, 0, 0.529);
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+span.finalizar:hover {
+    background: rgb(31, 194, 13);
+  }
+  span.close:hover {
+    background: red;
+  }
+div#finalizadas {
+    margin-top: 20pt;
+}
+li.listaFim {
+    text-decoration: line-through;
+    
+}
+li {
+    transition: 0.2s;
+    list-style-type: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font: 14pt arial;
+    margin-block-end: 10px;
+}
+
+ul li:hover {
+    background: rgb(150, 149, 147);
+  }
+
+  input {
+    width: 70%;
+    margin-right: 0;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    font-family: Verdana;
+  }
+  footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+  
